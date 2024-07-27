@@ -1,0 +1,95 @@
+.creative-card {
+    width: 300px;
+    height: 350px;
+    background-color: #060606;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden; /* Ensure border-radius applies properly */
+    position: relative; /* Add position relative for absolute positioning */
+    background: rgba(255, 255, 255, .1); /* Adjust the alpha value to control transparency */
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Add box-shadow on hover */
+    border:1px solid white;
+  
+}
+
+
+
+.creative-card:hover {
+    background-color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .1); /* Adjust the alpha value to control transparency */
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Add box-shadow on hover */
+    cursor: pointer;
+    border-left: 7px solid rgba(255, 255, 255, .1);
+    border-bottom: 7px solid rgba(255, 255, 255, .1);
+}
+
+.card-time {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    
+    font-size: 12px;
+    color: #303030;
+}
+
+
+/* Add any other styles you have for other elements */
+
+
+.card-header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+ 
+}
+
+.card-title {
+    margin: 0;
+    color: #333;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    display: block;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.student{
+    height:40px;
+    width:40px;
+    margin-left:100px;
+}
+.card-button {
+    padding: 10px 20px;
+   background-color: rgba(40,60,102,100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.continue{
+    text-decoration:none;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+   border: none;
+   border-radius: 30px;
+    width:100px;
+    height: 30px;
+}
+.continue:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* Define colors for other years similarly */
+

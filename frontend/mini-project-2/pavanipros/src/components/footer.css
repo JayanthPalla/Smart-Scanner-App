@@ -1,0 +1,40 @@
+.footer{
+    height: 50%;
+    width:100vw;
+    margin-top:3900px;
+    background: rgba(255, 255, 255, .1); /* Adjust the alpha value to control transparency */
+    backdrop-filter: blur(10px);
+    border-top:4px solid rgba(255, 255, 255, .2);
+    z-index: 1000;
+}
+.footer_logo{
+    margin-top: 40px;
+    margin-left: -1200px;
+}
+.footer_div{
+    
+    margin-left: 90px;
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer_grid{
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+}
+.Footer_features{
+    margin:50px;
+    color:rgb(255, 255, 255)
+}
+.Footer_features a{
+    margin:50px;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+.Footer_features:hover{
+    cursor: pointer;
+    color:rgb(240, 247, 21);
+}
+.whatsapp,.twitter,.instagram{
+    padding:20px;
+}

@@ -1,0 +1,52 @@
+.user{
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    float: right;
+    margin-left:1130px;
+    position: absolute;
+    padding-top: 80px;
+}
+.user_profile{
+    margin-left: 1200px;
+    margin-top: 80px;
+    height:60px;
+    width: 60px;
+}
+.recent{
+    margin-top: 60px;
+    float:left;
+    margin-left: 30px;
+    color:rgb(255, 255, 255);
+}
+
+.whole{
+    overflow-x: hidden;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 300px;
+    margin-left:100px;
+    row-gap: 30px;
+    
+}
+.start_new{
+    margin-top: 150px;
+    color:white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.get{
+    margin-top: 250px;
+    width:500px;
+    height:50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.get:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,79 @@
+.name_label{
+    color:white;
+    font-size: larger;
+    margin:50px;
+
+}
+.email_label{
+    color:white;
+    position: relative;
+    font-size: larger;
+    margin:50px;
+}
+.message_label{
+    color:white;
+    font-size: larger;
+    margin: -10px 50px 50px;
+    
+    
+}
+.send_message{
+    background-color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .1); /* Adjust the alpha value to control transparency */
+    backdrop-filter: blur(10px);
+    width:300px;
+    height:50px;
+    border: none;
+    color:white;
+    font-size: medium;
+    border-radius: 8px;
+}
+.send_message:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color:black;
+}
+.form-group{
+    margin:70px;
+}
+#name_touch,#email_touch{
+    border-radius:10px;
+    border:none;
+    width:600px;
+    height:50px;
+    background-color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .1); /* Adjust the alpha value to control transparency */
+    backdrop-filter: blur(10px)
+    
+}
+#message_touch{
+    border-radius:10px;
+    width:600px;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .1); /* Adjust the alpha value to control transparency */
+    backdrop-filter: blur(10px);
+    border:none;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgb(255, 255, 255); 
+}
+
+.error {
+    color: red;
+    font-size: small;
+    margin-top: 5px; 
+}
+
+
+.input-error {
+    border: 1px solid red; 
+}
+
+
+.input-valid {
+    border: 1px solid green; 
+}
+
+

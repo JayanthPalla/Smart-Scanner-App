@@ -1,0 +1,116 @@
+.login-body{
+    background-color: white;
+}
+.login-div{
+    margin-top:90px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(255, 255, 255);
+   
+}
+.login_welcome{
+    color:black;
+}
+.login-right-div{
+    height:600px;
+    background-color: rgba(40,60,120,100%);
+    border-radius: 50px;
+
+}
+.total-image{
+    position: relative;
+    margin-top:10px;
+}
+.faculty_login{
+    margin-top: 50px;
+    color:white;
+    font-size: 27px;
+    font-weight: 600;
+}
+.login_welcome{
+    color:rgba(40,60,120,100%);
+    font-size: 27px;
+    font-weight: 600;
+}
+.register_button{
+    position: relative;
+    margin-left: 50px;
+    background-color: rgba(40,60,120,100%);
+    border-radius: 15px;
+    width:250px;
+    height:50px;
+    color: white;
+    border-inline: none;
+    border: none;
+}
+.register_button:hover{
+    cursor: pointer;
+}
+.login_email{
+    color:white;
+    font-size: 20px;
+    margin-left:10px;
+    margin-right:100px;
+    position: relative;
+    
+}
+.login_password{
+    color:white;
+    font-size: 20px;
+    
+    margin-right:58px;
+    margin-top:48px;
+}
+#email_login{
+    margin-left:11px;
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+}
+#password_login{
+    margin-top:30px;
+    margin-left:20px;
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+}
+.login_form{
+    display: block;
+}
+.login_button{
+    position: relative;
+    margin-left: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width:300px;
+    height:50px;
+    color:rgba(40,60,120,100%);
+    border-inline: none;
+    border: none;
+    margin-top:50px;
+    font-size: 15px;
+}
+.login_button:hover{
+    cursor: pointer;
+    background-color: #fffb00;
+    font-size: 15px;
+}
+.input-elements{
+    margin-top:70px;
+}
+#rememberMe_login{
+    color:white;
+    margin-left:-15px;
+}
+.forgot-password-link-login{
+    margin-left:-15px;
+    margin-right: 20px;
+    margin-top: 30px;
+    color:#fffb00;
+}
+.remember-forgot {
+    margin-top: 50px;
+}
+

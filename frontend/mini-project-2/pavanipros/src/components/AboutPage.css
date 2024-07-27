@@ -1,0 +1,76 @@
+.about-page {
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 90px;
+    background-color: rgb(0, 13, 41);
+   
+
+    
+}
+.aboutbody{
+    
+    background-color: rgb(0, 13, 41);
+}
+.about-header {
+    margin-top:550px;
+    text-align: center;
+    margin-bottom: 30px;
+    color:White;
+}
+.flowervid{
+    height:90px;
+}
+.about-header h1 {
+    font-size: 36px;
+    margin-top:-120px;
+    position: absolute;
+    margin-left:200px;
+   z-index:1px;
+}
+
+
+.about-content section {
+    margin-bottom: 30px;
+    color:white;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.image{
+    height:750px;
+    width:100vw;
+    margin-top:40px;
+    position: absolute;
+    margin-left:-650px;
+    filter: brightness(70%);
+}
+.contact-info{
+    margin-top:1200px;
+}
+.customer-benefits{
+    position: absolute;
+    margin-top:700px;
+    margin-left:-150px;
+}
+.founder-info{
+   position: absolute;
+    margin-top:380px;
+    margin-left:-60px;
+}
+.mission-statement{
+    position: absolute;
+    margin-top:140px;
+    margin-left:-60px;
+}
+.web-overview{
+   
+    margin-top:80px;
+}

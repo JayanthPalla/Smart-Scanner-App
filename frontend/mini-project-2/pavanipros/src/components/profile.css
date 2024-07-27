@@ -1,0 +1,58 @@
+.profile_details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 400px; /* Adjust spacing between image and details */
+    width: 400px; /* Set the width */
+    height:600px;; /* Set height to auto to accommodate content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the items */
+    justify-content: center;
+    margin-top: 30px;
+}
+.edit{
+    margin-top:-40px;
+    position:absolute;
+    width:200px;
+    height:40px;
+    margin-left:-120px;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.edit:hover{
+    cursor: pointer;
+}
+
+.hand {
+    margin-top: -300px;
+    margin-left: -500px;
+    height: 300px;
+    width: 300px;
+}
+.getwelcome{
+    height:100vh;
+    width:100vw;
+}
+
+.profile_image {
+    margin-top: 90px;
+}
+
+.profile_details p {
+    color: rgba(40, 60, 102, 100%);
+     /* Adjust margin as needed */
+}
+
+.detail_label {
+    font-weight: bold;
+}
+.detail_label1,.detail_label2,.detail_label3{
+    font-weight: bold;
+    margin-bottom:150px;
+}
+.overall_page{
+    background-color: rgba(40,60,102,100%);
+}

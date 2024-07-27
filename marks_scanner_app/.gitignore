@@ -1,0 +1,27 @@
+# Ignore config files
+config/
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore database files
+*.sqlite3
+
+# Ignore media files uploaded by users
+/media/
+
+# Ignore logs
+/log/
+
+# Ignore local development settings
+/local_settings.py
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+
+# Ignore any backup files
+*~
+
+#Ignore migrations
+/app/migrations/*.py

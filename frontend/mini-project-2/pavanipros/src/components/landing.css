@@ -1,0 +1,258 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 253, 253);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgba(40, 60, 102, 100);
+}
+
+#navbar li a:hover {
+    color: palevioletred;
+}
+
+#navbar li a:hover::after {
+    content: "";
+    width: 25%;
+    height: 2px;
+    background-color: palevioletred;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.smart_welcome {
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    color: white;
+    font-size: 2.2rem;
+    animation: slideInLeft 5s ease infinite;
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+.carousel_div {
+    position: relative;
+    top: 300px;
+   
+}
+
+.guide_img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.guide {
+    position: absolute;
+    top: 1400px;
+    left: 800px;
+    height: 430px;
+    width: 430px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.about_guide {
+    position: relative;
+    margin-top: 20px;
+    color: rgba(40, 60, 102, 100);
+    justify-content: center;
+    align-items: center;
+}
+
+.guide_head {
+    position: relative;
+    float: left;
+    font-size: 2.6rem;
+    margin-left: 90px;
+    margin-right: 10px;
+    margin-top: 720px;
+    color: white;
+    animation: slideInLeft 5s ease infinite;
+}
+
+.services_head {
+    color: white;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 900px;
+}
+
+.explore {
+    color: white;
+    position: absolute;
+    float: left;
+    margin-left: 530px;
+    margin-right: 10px;
+    margin-top: 1080px;
+}
+.matter{
+    width:800px;
+    margin-left:200px;
+    align-items: center;
+    justify-content: center;
+}
+.explore_data {
+    color: white;
+    position: absolute;
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 1200px;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.services_div {
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(40, 60, 102, 100);
+    gap: 0.5rem;
+    margin-top: 1550px;
+}
+
+.service-item {
+    height: 200px;
+    width: 200px;
+    margin-left: 170px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    transform: 5sec ease-in;
+}
+.services_div :hover{
+    cursor: pointer;
+    
+}
+
+.p1 {
+    color: white;
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 190px;
+}
+
+.icons {
+    margin-top: 50px;
+}
+
+.read_more {
+    color: rgba(255, 193, 7, 100%);
+    position: absolute;
+    margin-top: 1830px;
+    margin-left: -640px;
+}
+
+.p2 {
+    color: white;
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 535px;
+}
+
+.read_more1 {
+    color: rgba(255, 193, 7, 100%);
+    position: absolute;
+    margin-top: 1830px;
+    margin-left: -250px;
+}
+
+.p3 {
+    color: white;
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 950px;
+}
+
+.read_more2 {
+    color: rgba(255, 193, 7, 100%);
+    position: absolute;
+    margin-top: 1830px;
+    margin-left: 130px;
+}
+
+.touch {
+    color: white;
+    position: absolute;
+    margin-top: 1930px;
+    margin-left: 500px;
+}
+
+.touch_data {
+    color: white;
+    position: absolute;
+    margin-top: 2010px;
+    margin-left: 90px;
+}
+
+.contact_head {
+    color: white;
+    margin-top: 5300px;
+    margin-left: -100px;
+    font-size: 30px;
+}
+
+.li {
+    list-style: none;
+    color: white;
+    align-items: center;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+.location_img {
+    margin-left: 800px;
+}
+
+.Landing {
+    background-color: rgba(40, 60, 102, 100);
+    overflow-x: hidden;
+}
+
+.touch_Form {
+    
+    margin-top:2700px;
+}
+.contact_us{
+    margin-top: 500px;
+}
+.new_services{
+    margin-top: 470px;
+}
+
+

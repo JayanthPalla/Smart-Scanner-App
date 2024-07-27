@@ -1,0 +1,49 @@
+.helnav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:20px 80px;
+    height:50px;
+    width:100%;
+    box-shadow: 0 5px 35px rgb(0,0,0,0.06);
+}
+#hel_ul{
+    display:flex;
+    align-items: center;
+    margin-left:-1000px;
+    
+    
+}
+#hel_ul li{
+    list-style: none;
+    padding:0 30px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+#hel_ul li a{
+    text-decoration: none;
+    font-size:1.3rem;
+    font-weight: 600;
+    color:rgba(40, 60, 102, 100);
+    transition:0.3s ease-in-out;
+}
+#hel_ul li a:hover{
+    color:rgba(40,60,102,100%);
+}
+#nav_icon{
+    margin-left:30px;
+    height:30px;
+    width:30px;
+}
+#hel_ul li:hover::after{
+    content:'';
+    width:30%;
+    height:3px;
+    background-color:rgb(43, 186, 226) ;
+    position: absolute;
+    bottom:-3px;
+    left:30px;
+}

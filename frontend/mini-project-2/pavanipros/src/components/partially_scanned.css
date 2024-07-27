@@ -1,0 +1,19 @@
+.scanning_div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.webcam{
+
+    height:900px;
+    width:600px;
+
+}
+.part{
+    height:500px;
+    width:100vw;
+}
+.excel{
+    margin-top:-580px;
+    background-color: rgb(255, 255, 255);
+}
+

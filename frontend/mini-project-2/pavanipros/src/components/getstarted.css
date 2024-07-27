@@ -1,0 +1,45 @@
+
+
+.getwelcome {
+    position: absolute;
+    color: rgb(255, 255, 255,1.5);
+    margin-top: -70px; /* Adjust as needed */
+    transition: margin-top 0.5s ease;
+    margin-left:-200px;
+}
+
+.getwelcome.scroll {
+    margin-top: -200px; /* Adjust as needed */
+}
+.selectoptions {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-top: 150px; /* Adjust as needed */
+    margin-left:230px;
+}
+.downpart{
+    background: rgba(255, 255, 255, .1); /* Adjust the alpha value to control transparency */
+    backdrop-filter: blur(10px);
+    border-top:4px solid rgba(255, 255, 255, .2);
+    z-index: 1000;
+    height:100vh;
+    position: absolute;
+    margin-top: -700px;
+    width:900px;
+    margin-left:200px;
+    border-radius:50px;
+}
+
+.Dropdown {
+    position: absolute;
+    margin-top: 180px; /* Adjust as needed */
+   margin-left:260px;
+}
+
+.flower_vid {
+    width: 100%; 
+    height:300%;
+    /* Adjust as needed */
+   
+    filter: brightness(50%);
+}

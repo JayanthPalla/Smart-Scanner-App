@@ -1,0 +1,35 @@
+.helpvedio{
+    height:auto;
+    width:100vw;
+    margin-top:-300px;
+    filter:brightness(80%);
+}
+.help-page{
+    margin-top: -1300px;
+    position: absolute;
+    width:900px;
+    height:1300px;
+    margin-left:200px;
+    background: rgba(255, 255, 255, .1); /* Adjust the alpha value to control transparency */
+    backdrop-filter: blur(10px);
+    border-top:4px solid rgba(255, 255, 255, .2);
+    color:white;
+    justify-content: center;
+}
+
+.advanced-scanning{
+    margin-top:90px;
+    position: relative;
+}
+.contact-us{
+    margin-top:150px;
+    position: relative;
+}
+.faq{
+    margin-top:250px;
+    position: relative;
+}
+.secure-data{
+    margin-top:200px;
+    position: relative;
+}
